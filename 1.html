@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="paper-full.js"></script>
+</head>
+<body>
+<canvas id="mainCanvas"></canvas>
+<script>
+paper.install(window);
+paper.setup(document.querySelector('#mainCanvas'));
+let c=Shape.Circle(200,200,80);
+c.fillColor='black';
+var text=new PointText(200,200);
+text.justification='center';
+text.fillColor='white';
+text.FontSize='1em';
+text.content='hello world';
+console.log(tool);
+</script>
+</body>
+</html>
